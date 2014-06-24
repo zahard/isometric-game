@@ -1,0 +1,44 @@
+div,canvas {
+	margin: 0;
+	padding: 0;
+}
+
+canvas {
+	background:none;
+	z-index:2;
+	position: absolute;
+	top: 0px; 
+	left: 0px;
+	float: left;
+	width:960px;
+	height: 640px;
+}
+	
+#canvas {
+	/*background: #222;*/
+}
+
+#viewport {
+	height: 480px;
+	width: 960px;
+	position: absolute;
+	
+	overflow: hidden;
+	
+	--left: 1460px; 
+	--top: 500px;
+}
+
+#border {
+	--border: 2px solid red;
+	height: 480px;
+	width: 960px;
+	position: absolute;
+	left: 0px;
+	top: 0px;
+	z-index: 7;
+}
+
+img {
+	display: none;
+}
